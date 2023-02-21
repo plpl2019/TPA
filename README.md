@@ -1,7 +1,7 @@
 # Threatening Patch Attacks on Object Detection in Optical Remote Sensing Images
 
 ## Datasets
-To facilitate the evaluation of the following research regarding adversarial attacks on object detection in O-RSIs, we sample 2000 images from the testing subset of DIOR and the validation subset of DOTA, respectively, dubbed DIOR-A and DOTA-A. To access these datasets, please refer to [AAOB-ORSI](https://gitee.com/xuxiangsun/aaob-orsi)
+To access the datasets leveraged in this paper (i.e., DIOR-A and DOTA-A), please refer to [AAOD-ORSI](https://github.com/xuxiangsun/AAOD-ORSI)
 
 ## Victim Detectors
 A total of four kinds of detectors are utilized in this paper for the evaluations including Faster R-CNN, RetinaNet, FCOS, and Yolo-v4. For Faster R-CNN, RetinaNet, and FCOS, we use [MMDetection](https://github.com/open-mmlab/mmdetection) as the main framework. For Yolo-v4, we use the same framework as [RPAttack](https://github.com/VDIGPKU/RPAttack), which is based on [DarkNet](https://github.com/AlexeyAB/darknet).
